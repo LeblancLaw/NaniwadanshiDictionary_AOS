@@ -1,7 +1,8 @@
-# なにわ男子 백과
+## なにわ男子 백과
 
 ## 개요
 **나니와단시 백과사전**은 일본의 인기 아이돌 그룹 나니와단시의 각 멤버에 대한 포괄적인 정보를 제공하는 안드로이드 애플리케이션입니다. 이 앱은 그룹 및 각 멤버에 대한 상세한 정보, 최신 뉴스 등을 제공합니다.
+
 
 ### 주요 기능
 - **멤버 프로필**: 각 멤버의 생애, 별명, 개인적인 정보 등을 담은 상세한 프로필을 제공합니다.
@@ -10,11 +11,16 @@
 
 ### 데이터베이스
 이 앱은 SQLite를 사용하여 다양한 데이터를 관리 및 저장합니다. 즐겨찾기와 개인화 설정 등 사용자 관련 정보는 로컬 데이터베이스에 안전하게 저장됩니다.
-!<img width="1170" alt="스크린샷 2024-06-17 오전 12 47 54" src="https://github.com/user-attachments/assets/37207c74-8f50-43f0-8e4b-6da009df004a"> <img width="1184" alt="스크린샷 2024-06-17 오전 12 47 02" src="https://github.com/user-attachments/assets/bec4fed7-bae3-44df-a51c-b6cfebd55f7b">
+
+<details>
+  <summary>보고서 사진 보기</summary>
+  <img width="1170" alt="스크린샷 2024-06-17 오전 12 47 54" src="https://github.com/user-attachments/assets/37207c74-8f50-43f0-8e4b-6da009df004a">
+  <img width="1184" alt="스크린샷 2024-06-17 오전 12 47 02" src="https://github.com/user-attachments/assets/bec4fed7-bae3-44df-a51c-b6cfebd55f7b">
+</details>
 
 
 ## 스크린샷
-!<img width="262" alt="스크린샷 2024-06-17 오전 12 47 40" src="https://github.com/user-attachments/assets/c0f1dd8a-9888-45d7-8bf1-28aa9c90f54b"> <img width="269" alt="스크린샷 2024-06-17 오전 12 45 14" src="https://github.com/user-attachments/assets/c7bfcd08-7ed3-4310-a677-11ae3358645b"> <img width="279" alt="스크린샷 2024-06-17 오전 12 44 59" src="https://github.com/user-attachments/assets/2537a26d-0b9b-4da3-9349-0305447ca65e"> <img width="368" alt="스크린샷 2024-06-17 오전 12 49 33" src="https://github.com/user-attachments/assets/5b09eddb-892f-4cc9-9db2-92a0622bbbbc"> <img width="281" alt="스크린샷 2024-06-17 오전 12 56 57" src="https://github.com/user-attachments/assets/0712679d-0de5-478a-8393-98d052eed23c"> <img width="281" alt="스크린샷 2024-06-17 오전 12 56 00" src="https://github.com/user-attachments/assets/be8c0ca2-96ce-4721-954c-4231e7b01d5e">
+!<img width="281" alt="스크린샷 2024-06-17 오전 12 56 57" src="https://github.com/user-attachments/assets/0712679d-0de5-478a-8393-98d052eed23c"> <img width="281" alt="스크린샷 2024-06-17 오전 12 56 00" src="https://github.com/user-attachments/assets/be8c0ca2-96ce-4721-954c-4231e7b01d5e">
 
 
 ## 보고서 사진
