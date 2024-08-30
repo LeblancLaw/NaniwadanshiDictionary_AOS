@@ -1,10 +1,10 @@
-## なにわ男子 백과
+# なにわ男子 백과
 
-## 개요
+## 1. 개요
 **나니와단시 백과사전**은 일본의 인기 아이돌 그룹 나니와단시의 각 멤버에 대한 포괄적인 정보를 제공하는 안드로이드 애플리케이션입니다. 이 앱은 그룹 및 각 멤버에 대한 상세한 정보, 최신 뉴스 등을 제공합니다.
 
 
-### 주요 기능
+### 2. 주요 기능
 - **멤버 프로필**: 각 멤버의 생애, 별명, 개인적인 정보 등을 담은 상세한 프로필을 제공합니다.
 - **뉴스 업데이트**: 나니와단시와 관련된 최신 뉴스와 이벤트 정보를 빠르게 확인할 수 있도록 그룹의 SNS로 이동할 수 있는 버튼을 제공합니다.
 - **이미지 갤러리**: 그룹의 고화질 이미지를 탐색할 수 있는 갤러리가 포함되어 있습니다.
@@ -19,16 +19,16 @@
 </details>
 
 
-## 스크린샷
+## 3. 스크린샷
 !<img width="281" alt="스크린샷 2024-06-17 오전 12 56 57" src="https://github.com/user-attachments/assets/0712679d-0de5-478a-8393-98d052eed23c"> <img width="281" alt="스크린샷 2024-06-17 오전 12 56 00" src="https://github.com/user-attachments/assets/be8c0ca2-96ce-4721-954c-4231e7b01d5e">
 
 
 
-## 보고서 사진
-아래의 토글을 클릭하여 보고서 사진을 확인하세요:
+## 4. 상세 페이지
+아래의 토글을 클릭하여 상세 페이지를 확인하세요:
 
 <details>
-  <summary>보고서 사진 보기</summary>
+  <summary>상세 페이지 UI</summary>
 
   ![003](https://github.com/user-attachments/assets/4a18534b-b580-439d-b07f-14e18430d4b3)
   ![004](https://github.com/user-attachments/assets/584152ce-2864-4d46-942c-7334f7f84892)
@@ -37,3 +37,20 @@
   ![007](https://github.com/user-attachments/assets/72997e8a-54b1-47cf-9ad8-9f26dc009d85)
 
 </details>
+
+
+## 5. 설치 및 실행 방법
+
+### 1. 사전 요구 사항
+- **Android Studio**: 최신 버전의 [Android Studio](https://developer.android.com/studio)를 설치하세요.
+- **JDK**: 최소 Java Development Kit (JDK) 8 이상이 필요합니다.
+- **Gradle**: 프로젝트에 포함된 Gradle Wrapper를 사용하거나, 시스템에 Gradle을 설치할 수 있습니다.
+
+### 2. 프로젝트 클론
+다음 명령어를 사용하여 리포지토리를 클론합니다:
+
+```bash
+git clone https://github.com/theendofthefuxxingworld/mobileProgramming.git
+
+6. 추가 문서
+- [기능 데모 영상](https://youtu.be/d8nnTardZe4)
