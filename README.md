@@ -29,6 +29,11 @@
 
 <details>
   <summary>보고서 사진 보기</summary>
-  <img src="https://yourimageurl.com/report1.png" alt="보고서 사진 1">
-  <img src="https://yourimageurl.com/report2.png" alt="보고서 사진 2">
+
+  ![003](https://github.com/user-attachments/assets/4a18534b-b580-439d-b07f-14e18430d4b3)
+  ![004](https://github.com/user-attachments/assets/584152ce-2864-4d46-942c-7334f7f84892)
+  ![005](https://github.com/user-attachments/assets/9bafe8d6-66ae-46cf-a638-5c6e54147244)
+  ![006](https://github.com/user-attachments/assets/e9d649f0-14eb-4720-a51b-60065c1805fd)
+  ![007](https://github.com/user-attachments/assets/72997e8a-54b1-47cf-9ad8-9f26dc009d85)
+
 </details>
