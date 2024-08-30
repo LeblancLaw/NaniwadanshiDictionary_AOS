@@ -13,7 +13,7 @@
 이 앱은 SQLite를 사용하여 다양한 데이터를 관리 및 저장합니다. 즐겨찾기와 개인화 설정 등 사용자 관련 정보는 로컬 데이터베이스에 안전하게 저장됩니다.
 
 <details>
-  <summary>보고서 사진 보기</summary>
+  <summary>SQLite 활용</summary>
   <img width="1170" alt="스크린샷 2024-06-17 오전 12 47 54" src="https://github.com/user-attachments/assets/37207c74-8f50-43f0-8e4b-6da009df004a">
   <img width="1184" alt="스크린샷 2024-06-17 오전 12 47 02" src="https://github.com/user-attachments/assets/bec4fed7-bae3-44df-a51c-b6cfebd55f7b">
 </details>
@@ -21,6 +21,7 @@
 
 ## 스크린샷
 !<img width="281" alt="스크린샷 2024-06-17 오전 12 56 57" src="https://github.com/user-attachments/assets/0712679d-0de5-478a-8393-98d052eed23c"> <img width="281" alt="스크린샷 2024-06-17 오전 12 56 00" src="https://github.com/user-attachments/assets/be8c0ca2-96ce-4721-954c-4231e7b01d5e">
+
 
 
 ## 보고서 사진
