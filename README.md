@@ -48,9 +48,9 @@
 
 ### 2. 프로젝트 클론
 다음 명령어를 사용하여 리포지토리를 클론합니다:
-
-```bash
+  ```bash
 git clone https://github.com/theendofthefuxxingworld/mobileProgramming.git
+ ```
 
-6. 추가 문서
+## 6. 추가 문서
 - [기능 데모 영상](https://youtu.be/d8nnTardZe4)
