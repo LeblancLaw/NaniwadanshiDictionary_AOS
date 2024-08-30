@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- 이미지뷰 -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="212dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/kazuya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 이름 텍스트뷰 -->
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/inbold"
+        android:text="오오하시 카즈야 (大橋 和也)"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <!-- 스크롤뷰 -->
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameTextView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 캐치프라이즈 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/inlight"
+                android:text="“プリン食べ過ぎてお尻ぷりんぷりん。” 푸딩 많이 먹어서 엉덩이 푸링푸링"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <!-- MBTI -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/inlight"
+                android:text="MBTI : INFJ-A"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <!-- 출생 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/inlight"
+                android:text="출생 : 1997년 8월 9일, 후쿠오카현 코가시"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <!-- 신체 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/inlight"
+                android:text="신체 : 167cm, 58kg, B형"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <!-- 학력 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/inlight"
+                android:text="학력 : 나니와 고등학교"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <!-- 담당색 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inlight"
+                android:layout_marginBottom="8dp"
+                android:text="담당색 : 초록색"
+                android:textAlignment="center"
+                android:textColor="#84FF99"
+                android:textSize="15dp" />
+
+            <!-- 취미 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inlight"
+                android:text="취미 : 먹기, 하늘 보기"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <!-- 디테일 이미지 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/detailimage1"
+                    android:layout_width="0dp"
+                    android:layout_height="303dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/d_kazuya"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/detailimage2"
+                    android:layout_width="0dp"
+                    android:layout_height="303dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/d2_kazuya"
+                    app:layout_constraintStart_toEndOf="@+id/detailimage1"
+                    app:layout_constraintTop_toTopOf="@+id/detailimage1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <!-- 닫기 버튼 -->
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/end"
+        android:onClick="closePopup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

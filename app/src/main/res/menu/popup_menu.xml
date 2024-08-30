@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_twitter"
+        android:title="공식 트위터로 이동"
+        />
+    <item
+        android:id="@+id/menu_instagram"
+        android:title="공식 인스타그램으로 이동" />
+    <item
+        android:id="@+id/menu_youtube"
+        android:title="공식 유튜브로 이동" />
+    <item
+        android:id="@+id/menu_homepage"
+        android:title="공식 홈페이지로 이동"
+        />
+</menu>
